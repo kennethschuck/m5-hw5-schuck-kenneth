@@ -1,6 +1,14 @@
 .layout-container {
    width:100%;
 }
+.wrapper {
+  margin-right: auto; 
+  margin-left:  auto; 
+
+  max-width: 960px; 
+  padding-right: 10px; 
+  padding-left:  10px; 
+}
 
 aside {
   width:25%;
@@ -29,8 +37,8 @@ body {
     p {
       background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/ffd6f82c-60e2-4c97-bdc9-850e966f3ed7/pink-flowers.png);
         background-repeat: repeat;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        ###-webkit-background-clip: text;
+        ###-webkit-text-fill-color: transparent;
       text-align: justify;
       font-size: 25px;
       
@@ -45,3 +53,5 @@ body {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
     }
+       
+       
