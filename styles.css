@@ -1,0 +1,47 @@
+.layout-container {
+   width:100%;
+}
+
+aside {
+  width:25%;
+  float:left;
+}
+.layout-container:after {
+   clear:both;
+}
+
+body {
+      width:75%;
+      float:left;
+      margin: 20px;
+      text-align: center;
+    }
+  
+    h1 {
+      color: pink;
+    }
+  
+    img {
+      float: left;
+      margin: 5px;
+    }
+  
+    p {
+      background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/ffd6f82c-60e2-4c97-bdc9-850e966f3ed7/pink-flowers.png);
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      text-align: justify;
+      font-size: 25px;
+      
+ aside {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; 
+  z-index: 1; /* Stay on top */
+  top: 0; 
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+    }
