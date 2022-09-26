@@ -15,7 +15,7 @@
 }*/
 
 .bio {
-      width: 35%;
+      width: 55%;
       /*float:left;*/
       margin: 5%;
       
@@ -46,7 +46,7 @@
    padding-right:25-px;
    font-family: "Lucida Console", "Courier New", monospace;
    color: blue;
-   text-align:right;
+   text-align:center;
 }
   
     
@@ -59,7 +59,7 @@
       font-size: 25px; }
       
  .sidebar {
-  height: 100%;
+  /*height: 100%;*/
    width: 25%;
   float: right;
   /* position: fixed; */ 
