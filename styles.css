@@ -1,29 +1,30 @@
 /*.layout-container {
    width:100%;
 }*/
-.wrapper {
+/*.wrapper {
   margin-right: auto; 
   margin-left:  auto; 
 
   max-width: 960px; 
   padding-right: 10px; 
   padding-left:  10px; 
-}
+}*/
 
 /*.layout-container:after {
    clear:both;
 }*/
 
-article {
+.bio {
       width:75%;
       /*float:left;*/
       margin: 20px;
       text-align: left;
-   img {
+
+    }
+.me {
       float: left;
       /*margin: 5px;*/
  padding: 0 20px 20px 0;
-    }
     }
   
     h1 {
