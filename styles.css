@@ -15,9 +15,10 @@
 }*/
 
 .bio {
-      width:75%;
+      width:65%;
       /*float:left;*/
-      margin: 20px;
+      margin: 5%;
+      
       text-align: left;
 
     }
@@ -27,9 +28,18 @@
  padding: 0 20px 20px 0;
     }
   
-    h1 {
+    /*h1 {
       color: pink;
-    }
+    }*/
+.name {
+   background-color: blue;
+   color: white;
+}
+
+.links {
+   font-family: "Lucida Console", "Courier New", monospace;
+   color: blue;
+}
   
     
   
@@ -44,20 +54,21 @@
   height: 100%;
     width: 25%;
   float: right;
-  position: fixed; 
+  /* position: fixed; */ 
   z-index: 1; /* Stay on top */
   top: 0; 
   right: 0;
-  background-color: #111; /* Black */
-  color: white;
+  background-color: white;
+  color: blue;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  padding-left: 25px;
     }
   .sidebar div {
   padding: 8px;
   }
 h3 {
-   color:white;
+   color:black;
 }
        
        
