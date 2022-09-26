@@ -10,11 +10,7 @@
   padding-left:  10px; 
 }
 
-aside {
-  width:25%;
-  float:right;
-   color:white;
-}
+
 /*.layout-container:after {
    clear:both;
 }*/
@@ -44,13 +40,14 @@ body {
       
  aside {
   /*height: 100%; */
+    width: 25%;
   float: right;
-  width: 160px; 
   position: fixed; 
   z-index: 1; /* Stay on top */
   top: 0; 
   left: 0;
   background-color: #111; /* Black */
+  color: white;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
     }
