@@ -14,15 +14,15 @@ aside {
   width:25%;
   float:left;
 }
-.layout-container:after {
+/*.layout-container:after {
    clear:both;
-}
+}*/
 
 body {
       width:75%;
       float:left;
       margin: 20px;
-      text-align: center;
+      text-align: left;
     }
   
     h1 {
@@ -39,7 +39,7 @@ body {
         background-repeat: repeat;
         /*--webkit-background-clip: text;
         ###-webkit-text-fill-color: transparent;*/
-      font-size: 25px;
+       font-size: 25px; }
       
  aside {
   /*height: 100%; */
