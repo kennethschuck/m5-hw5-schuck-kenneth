@@ -42,8 +42,9 @@ body {
       font-size: 25px;
       
  aside {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  /*height: 100%; */
+  float: right;
+  width: 160px; 
   position: fixed; 
   z-index: 1; /* Stay on top */
   top: 0; 
