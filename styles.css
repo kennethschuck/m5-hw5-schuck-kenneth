@@ -12,7 +12,8 @@
 
 aside {
   width:25%;
-  float:left;
+  float:right;
+   color:white;
 }
 /*.layout-container:after {
    clear:both;
